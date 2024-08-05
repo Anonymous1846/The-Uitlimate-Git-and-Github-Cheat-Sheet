@@ -145,7 +145,6 @@ Git is a distributed version control system that helps you track changes in your
 
 ## Resources
 - [Official Git Documentation](https://git-scm.com/doc)
-- [GitHub Learning Lab](https://lab.github.com/)
 - [Pro Git Book](https://git-scm.com/book/en/v2)
 - [Git and Github Mastery Video Tutorial](https://www.youtube.com/watch?v=zTjRZNkhiEU)
 
