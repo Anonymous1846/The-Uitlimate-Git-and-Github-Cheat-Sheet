@@ -15,7 +15,7 @@ Welcome to the comprehensive guide on mastering Git and GitHub. This guide will 
 
 ## Introduction to Git
 
-Git is a distributed version control system that helps you track changes in your code and collaborate with others, which was developed by Linus Torvalds. GitHub is a platform that hosts Git repositories, making it easier to share and manage code collaboratively. 
+Git is a distributed version control system that helps you track changes in your code and collaborate with others, which was developed by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds). GitHub is a platform that hosts Git repositories, making it easier to share and manage code collaboratively. 
 
 ## Setting Up Git
 
@@ -38,7 +38,7 @@ Git is a distributed version control system that helps you track changes in your
 ### Making Changes
 - Check the status of your repository: `git status`
 - Add files to staging: `git add <file>`
-- Add all files to staging: `git add .`
+- Add all files to staging: `git add .` or `git add --all`
 - Commit changes: `git commit -m "Your commit message"`
 - View commit history: `git log`
 
@@ -121,6 +121,7 @@ Git is a distributed version control system that helps you track changes in your
 - [Official Git Documentation](https://git-scm.com/doc)
 - [GitHub Learning Lab](https://lab.github.com/)
 - [Pro Git Book](https://git-scm.com/book/en/v2)
+- [Git and Github Mastery Video Tutorial](https://www.youtube.com/watch?v=zTjRZNkhiEU)
 
 ---
 
