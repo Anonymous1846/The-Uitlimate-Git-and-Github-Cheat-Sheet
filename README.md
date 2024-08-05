@@ -11,7 +11,10 @@ Welcome to the comprehensive guide on mastering Git and GitHub. This guide will 
 6. [Stashing and Cleaning](#stashing-and-cleaning)
 7. [Collaborating with GitHub](#collaborating-with-github)
 8. [Advanced Git Topics](#advanced-git-topics)
-9. [Resources](#resources)
+9. [Git vs Github](#git-vs-github)
+10. [Git Hooks]
+11. [Resources](#resources)
+
 
 ## Introduction to Git
 
@@ -22,7 +25,7 @@ Git is a distributed version control system that helps you track changes in your
 ### Installing Git
 - **Linux**: `sudo apt-get install git`
 - **Mac**: `brew install git`
-- **Windows**: Download and install from [git-scm.com](https://git-scm.com/)
+- **Windows**: For windows please navigate to the donwloads page for Git[https://git-scm.com/downloads] and download and execute the [installer](https://git-scm.com/download/win), it will install the Git on you machine.
 
 ### Configuration
 - Set your name: `git config --global user.name "Your Name"`
@@ -116,6 +119,26 @@ Git is a distributed version control system that helps you track changes in your
 ### Reverting and Resetting
 - Revert a commit: `git revert <commit>`
 - Reset to a previous commit: `git reset --hard <commit>`
+
+## Git vs GitHub
+
+| Feature            | Git                                                               | GitHub                                                                   |
+|--------------------|-------------------------------------------------------------------|--------------------------------------------------------------------------|
+| **Type**           | Distributed Version Control System (Offline)                              | Web-based hosting service for Git repositories (Online)                           |
+| **Functionality**  | Manages source code history and versioning locally and remotely  | Adds collaboration features, such as pull requests and issues            |
+| **Installation**   | Installed on local machines                                      | Accessed via web browser, with additional tools available for desktop    |
+| **Repository**     | Local and remote repositories                                    | Remote repositories hosted on GitHub's servers                           |
+| **Branching**      | Supports branching and merging                                   | Provides visual tools for managing branches                              |
+| **Collaboration**  | Primarily local, with push/pull to remote repositories           | Facilitates team collaboration, code reviews, and discussions            |
+| **Access Control** | SSH keys, HTTPS, and GPG                                          | Granular access control and permissions                                  |
+| **Integration**    | Works with various CI/CD tools                                   | Native integration with GitHub Actions, and third-party CI/CD tools      |
+| **Community**      | Command-line focused community                                   | Large community with social coding features, such as following and stars |
+| **Learning Curve** | Steeper learning curve due to command-line interface             | More accessible with a user-friendly interface                           |
+
+---
+
+Understanding the distinction between Git and GitHub is essential for effectively managing and collaborating on code projects. Git provides the version control capabilities, while GitHub enhances these capabilities with additional collaboration and management tools.
+
 
 ## Resources
 - [Official Git Documentation](https://git-scm.com/doc)
