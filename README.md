@@ -125,4 +125,4 @@ Git is a distributed version control system that helps you track changes in your
 
 ---
 
-This cheatsheet is designed to be a quick reference guide to help you on your journey to mastering Git and GitHub. Happy coding!
+This cheat sheet is for everyone be it beginner or a seasoned professional, who want to learn git or master git concepts, more updations will be added and we're expecting collaboration from other computer science enthusiasts. 
