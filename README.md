@@ -25,13 +25,17 @@ Git is a distributed version control system that helps you track changes in your
 ### Installing Git
 - **Linux**: `sudo apt-get install git`
 - **Mac**: `brew install git`
-- **Windows**: For windows please navigate to the donwloads page for Git[https://git-scm.com/downloads] and download and execute the [installer](https://git-scm.com/download/win), it will install the Git on you machine.
+- **Windows**: For windows please navigate to the donwloads page for [Git](https://git-scm.com/downloads) and download and execute the [installer](https://git-scm.com/download/win), it will install the Git on you machine.
 
 ### Configuration
 - Set your name: `git config --global user.name "Your Name"`
 - Set your email: `git config --global user.email "your.email@example.com"`
 - Check your settings: `git config --list`
+- Check your user level settings: `git config --global --list`
+- Check your system level settings: `git config --system --list`
+- Check your single local repo level settings: `git config --local --list`
 
+  
 ## Basic Git Commands
 
 ### Starting a Repository
@@ -124,20 +128,19 @@ Git is a distributed version control system that helps you track changes in your
 
 | Feature            | Git                                                               | GitHub                                                                   |
 |--------------------|-------------------------------------------------------------------|--------------------------------------------------------------------------|
-| **Type**           | Distributed Version Control System (Offline)                              | Web-based hosting service for Git repositories (Online)                           |
-| **Functionality**  | Manages source code history and versioning locally and remotely  | Adds collaboration features, such as pull requests and issues            |
-| **Installation**   | Installed on local machines                                      | Accessed via web browser, with additional tools available for desktop    |
-| **Repository**     | Local and remote repositories                                    | Remote repositories hosted on GitHub's servers                           |
-| **Branching**      | Supports branching and merging                                   | Provides visual tools for managing branches                              |
-| **Collaboration**  | Primarily local, with push/pull to remote repositories           | Facilitates team collaboration, code reviews, and discussions            |
+| **Type**           | Distributed Version Control System (Offline)                      | Web-based hosting service for Git repositories (Online)                  |
+| **Functionality**  | Manages source code history and versioning locally and remotely   | Adds collaboration features, such as pull requests and issues            |
+| **Installation**   | Installed on local machines                                       | Accessed via web browser, with additional tools available for desktop    |
+| **Repository**     | Local and remote repositories                                     | Remote repositories hosted on GitHub's servers                           |
+| **Branching**      | Supports branching and merging                                    | Provides visual tools for managing branches                              |
+| **Collaboration**  | Primarily local, with push/pull to remote repositories            | Facilitates team collaboration, code reviews, and discussions            |
 | **Access Control** | SSH keys, HTTPS, and GPG                                          | Granular access control and permissions                                  |
-| **Integration**    | Works with various CI/CD tools                                   | Native integration with GitHub Actions, and third-party CI/CD tools      |
-| **Community**      | Command-line focused community                                   | Large community with social coding features, such as following and stars |
-| **Learning Curve** | Steeper learning curve due to command-line interface             | More accessible with a user-friendly interface                           |
+| **Integration**    | Works with various CI/CD tools                                    | Native integration with GitHub Actions, and third-party CI/CD tools      |
+| **Community**      | Command-line focused community                                    | Large community with social coding features, such as following and stars |
+| **Learning Curve** | Steeper learning curve due to command-line interface              | More accessible with a user-friendly interface                           |
 
 ---
 
-Understanding the distinction between Git and GitHub is essential for effectively managing and collaborating on code projects. Git provides the version control capabilities, while GitHub enhances these capabilities with additional collaboration and management tools.
 
 
 ## Resources
