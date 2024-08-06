@@ -117,6 +117,8 @@ Git is a distributed version control system that helps you track changes in your
 - Abort a rebase: `git rebase --abort`
 - Continue a rebase after resolving conflicts: `git rebase --continue`
 
+### Rebase vs Merge 
+![Merge vs Rebase](https://miro.medium.com/v2/resize:fit:1400/1*mQOZjM3wwL1UV-ydQYAJTg.png "a tile")
 ### Cherry-picking
 - Apply the changes from a specific commit: `git cherry-pick <commit>`
 
