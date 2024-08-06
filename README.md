@@ -12,7 +12,7 @@ Welcome to the comprehensive guide on mastering Git and GitHub. This guide will 
 7. [Collaborating with GitHub](#collaborating-with-github)
 8. [Advanced Git Topics](#advanced-git-topics)
 9. [Git vs Github](#git-vs-github)
-10. [Git Hooks]
+10. [Git Hooks](#git-hooks)
 11. [Resources](#resources)
 
 
@@ -143,7 +143,9 @@ Git is a distributed version control system that helps you track changes in your
 
 ---
 
+## Git Hooks
 
+Git hooks are scripts that Git executes before or after events such as commit, push, and receive. They allow you to automate tasks and enforce policies.There are client side and server side hooks.
 
 ## Resources
 - [Official Git Documentation](https://git-scm.com/doc)
