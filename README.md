@@ -63,6 +63,7 @@ Git is a distributed version control system that helps you track changes in your
 - Create and switch to a new branch: `git checkout -b <branch-name>`
 - Delete a branch: `git branch -d <branch-name>`
 
+![Git Workflow](https://i.redd.it/nm1w0gnf2zh11.png "a title")
 ### Merging
 - Merge a branch into the current branch: `git merge <branch-name>`
 - Abort a merge: `git merge --abort`
@@ -118,7 +119,7 @@ Git is a distributed version control system that helps you track changes in your
 - Continue a rebase after resolving conflicts: `git rebase --continue`
 
 ### Rebase vs Merge 
-![Merge vs Rebase](https://res.cloudinary.com/practicaldev/image/fetch/s--NnRWGvOC--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/uiw8r150eqr7q3gpkw4i.JPG "a title")
+![Merge vs Rebase](https://miro.medium.com/v2/resize:fit:1400/1*s9vhZ0Arc0ViAnl9ksy_Ew.png "a title")
 ### Cherry-picking
 - Apply the changes from a specific commit: `git cherry-pick <commit>`
 
