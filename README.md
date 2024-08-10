@@ -12,8 +12,9 @@ Welcome to the comprehensive guide on mastering Git and GitHub. This guide will 
 7. [Collaborating with GitHub](#collaborating-with-github)
 8. [Advanced Git Topics](#advanced-git-topics)
 9. [Git vs Github](#git-vs-github)
-10. [Git Hooks](#git-hooks)
-11. [Resources](#resources)
+10. [Git Under The Hood](#git-under-the-hood)
+11. [Git Hooks](#git-hooks)
+12. [Resources](#resources)
 
 
 ## Introduction to Git
@@ -143,6 +144,32 @@ Git is a distributed version control system that helps you track changes in your
 | **Learning Curve** | Steeper learning curve due to command-line interface              | More accessible with a user-friendly interface                           |
 
 ---
+## Git Under The Hood
+The .git directory is a hidden folder that exists in the root of a Git repository. It contains all the metadata and information that Git needs to manage the version history of a project. Here’s a brief overview of its main components:
+
+### Configuration Files (config):
+
+Contains project-specific Git settings, such as remote repository URLs and branch information.
+- Object Store (objects/):
+Stores all the content tracked by Git in the form of objects, including commits, trees (directories), and blobs (files).
+
+- References (refs/):
+Tracks pointers to commit objects, such as branches, tags, and remote references.
+
+- Index (index):
+A staging area where changes are listed before they are committed to the repository. It acts as a snapshot of the working directory.
+
+- Logs (logs/):
+Contains a history of updates to the branches and references, allowing you to see how the repository has evolved over time.
+
+- HEAD:
+A special reference that points to the current branch or commit checked out in your working directory.
+
+- Hooks (hooks/):
+Contains scripts that can be triggered by specific Git events, such as commit, push, or merge. These scripts can automate tasks like code formatting or running tests.
+
+- Packed References (packed-refs):
+Stores a more compact representation of refs (branches, tags) when the number of references grows large.
 
 ## Git Hooks
 
@@ -195,6 +222,7 @@ In summary, client-side hooks are useful for enforcing individual developer poli
 - [Official Git Documentation](https://git-scm.com/doc)
 - [Pro Git Book](https://git-scm.com/book/en/v2)
 - [Git and Github Mastery Video Tutorial](https://www.youtube.com/watch?v=zTjRZNkhiEU)
+- [Git Internals](https://www.youtube.com/watch?v=fWMKue-WBok&list=PL9lx0DXCC4BNUby5H58y6s2TQVLadV8v7)
 
 ---
 
