@@ -147,9 +147,9 @@ Git is a distributed version control system that helps you track changes in your
 ## Git Under The Hood
 The .git directory is a hidden folder that exists in the root of a Git repository. It contains all the metadata and information that Git needs to manage the version history of a project. Here’s a brief overview of its main components:
 
-### Configuration Files (config):
-
+- Configuration Files (config):
 Contains project-specific Git settings, such as remote repository URLs and branch information.
+
 - Object Store (objects/):
 Stores all the content tracked by Git in the form of objects, including commits, trees (directories), and blobs (files).
 
