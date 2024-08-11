@@ -26,7 +26,7 @@ Git is a distributed version control system that helps you track changes in your
 ### Installing Git
 - **Linux**: `sudo apt-get install git`
 - **Mac**: `brew install git`
-- **Windows**: For windows please navigate to the donwloads page for [Git](https://git-scm.com/downloads) and download and execute the [installer](https://git-scm.com/download/win), it will install the Git on you machine.
+- **Windows**: For windows please navigate to the donwloads page for [Git](https://git-scm.com/downloads) and download and execute the [Installer](https://git-scm.com/download/win), it will install the Git on you machine.
 
 ### Configuration
 - Set your name: `git config --global user.name "Your Name"`
