@@ -223,6 +223,7 @@ In summary, client-side hooks are useful for enforcing individual developer poli
 - [Pro Git Book](https://git-scm.com/book/en/v2)
 - [Git and Github Mastery Video Tutorial](https://www.youtube.com/watch?v=zTjRZNkhiEU)
 - [Git Internals](https://www.youtube.com/watch?v=fWMKue-WBok&list=PL9lx0DXCC4BNUby5H58y6s2TQVLadV8v7)
+- [Connecting Git and Github](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
 
 ---
 
