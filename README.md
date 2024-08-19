@@ -184,38 +184,43 @@ Client-side hooks run on the developer's local machine, before the code is pushe
 
 Advantages:
 
-Flexibility: Client-side hooks can be customized to fit individual developer needs.
-Performance: Since they run locally, client-side hooks don't impact the performance of the remote repository.
-Security: Client-side hooks can help prevent sensitive data from being committed to the repository.
+- Flexibility: Client-side hooks can be customized to fit individual developer needs.
+- Performance: Since they run locally, client-side hooks don't impact the performance of the remote repository.
+- Security: Client-side hooks can help prevent sensitive data from being committed to the repository.
 Disadvantages:
 
-Lack of enforcement: Client-side hooks can be bypassed or disabled by developers.
-Inconsistency: Different developers may have different client-side hooks, leading to inconsistencies.
-Server-Side Hooks
+- Lack of enforcement: Client-side hooks can be bypassed or disabled by developers.
+- Inconsistency: Different developers may have different client-side hooks, leading to inconsistencies.
+
+### Server-Side Hooks
 
 Server-side hooks run on the remote repository, after the code has been pushed. These hooks are stored in the hooks directory of the remote repository.
 
 Advantages:
 
-Enforcement: Server-side hooks are enforced for all developers, ensuring consistency and compliance.
-Centralized management: Server-side hooks can be managed centrally, making it easier to maintain and update.
-Security: Server-side hooks can help prevent unauthorized changes to the repository.
+- Enforcement: Server-side hooks are enforced for all developers, ensuring consistency and compliance.
+- Centralized management: Server-side hooks can be managed centrally, making it easier to maintain and update.
+- Security: Server-side hooks can help prevent unauthorized changes to the repository.
+
 Disadvantages:
 
-Performance impact: Server-side hooks can impact the performance of the remote repository.
-Limited flexibility: Server-side hooks are less flexible than client-side hooks, as they need to be compatible with all developers' environments.
-Common Use Cases:
+- Performance impact: Server-side hooks can impact the performance of the remote repository.
+- Limited flexibility: Server-side hooks are less flexible than client-side hooks, as they need to be compatible with all developers' environments.
 
-### Client-Side Hooks:
+### Common Use Cases:
 
-Code formatting: Enforce code formatting standards before committing code.
-Commit message validation: Validate commit messages to ensure they meet specific requirements.
-Sensitive data detection: Detect and prevent sensitive data from being committed to the repository.
-Server-Side Hooks:
+#### Client-Side Hooks:
 
-Access control: Enforce access control policies, such as restricting pushes to specific branches or users.
-Code review: Enforce code review policies, such as requiring approvals before merging code.
-Data validation: Validate data before accepting it into the repository.
+- Code formatting: Enforce code formatting standards before committing code.
+- Commit message validation: Validate commit messages to ensure they meet specific requirements.
+- Sensitive data detection: Detect and prevent sensitive data from being committed to the repository.
+
+#### Server-Side Hooks:
+
+- Access control: Enforce access control policies, such as restricting pushes to specific branches or users.
+- Code review: Enforce code review policies, such as requiring approvals before merging code.
+- Data validation: Validate data before accepting it into the repository.
+
 In summary, client-side hooks are useful for enforcing individual developer policies and detecting sensitive data, while server-side hooks are better suited for enforcing centralized policies, access control, and data validation.
 
 ## Resources
