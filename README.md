@@ -187,6 +187,7 @@ Advantages:
 - Flexibility: Client-side hooks can be customized to fit individual developer needs.
 - Performance: Since they run locally, client-side hooks don't impact the performance of the remote repository.
 - Security: Client-side hooks can help prevent sensitive data from being committed to the repository.
+  
 Disadvantages:
 
 - Lack of enforcement: Client-side hooks can be bypassed or disabled by developers.
